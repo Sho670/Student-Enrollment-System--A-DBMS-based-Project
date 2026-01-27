@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Enrollment System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .form-container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .form-label {
+      font-weight: 500;
+    }
+    .form-title {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2 class="text-center mb-4 form-title">Student Enrollment System</h2>
+    <form action="submit_student.php" method="POST">
+      <div class="mb-3">
+        <label for="first_name" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="first_name" name="first_name" required>
+      </div> <div class="mb-3">
+        <label for="last_name" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="last_name" name="last_name" required>
+      </div>  <div class="mb-3">
+        <label for="email" class="form-label">Email Id</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>  <div class="mb-3">
+        <label for="birthdate" class="form-label">Birthdate</label>
+        <input type="date" class="form-control" id="birthdate" name="birthdate" required>
+      </div>  <hr>
+      <div class="mb-3">
+        <label for="course_name" class="form-label">Course Name</label>
+        <input type="text" class="form-control" id="course_name" name="course_name" required>
+      </div>
+      <div class="mb-3">
+        <label for="course_code" class="form-label">Course Code</label>
+        <input type="text" class="form-control" id="course_code" name="course_code" required>
+      </div>
+      <div class="mb-3">
+        <label for="credits" class="form-label">Credits</label>
+        <input type="number" class="form-control" id="credits" name="credits" min="1" max="10" required>
+      </div>
+      <div class="mb-3">
+        <label for="grade" class="form-label">Grades</label>
+        <input type="text" class="form-control" id="grade" name="grade" required>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Register Student & Course</button>
+    </form>
+  </div>
+</body>
+</html>
