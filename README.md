@@ -31,10 +31,15 @@ The project demonstrates important **DBMS concepts** such as:
 # 🎯 Project Objectives
 
 ✅ Digitize student enrollment processes  
+
 ✅ Reduce manual paperwork and errors  
+
 ✅ Improve data accuracy and consistency  
+
 ✅ Provide fast data retrieval and updates  
+
 ✅ Demonstrate real-world DBMS implementation  
+
 ✅ Maintain secure and structured academic records  
 
 ---
