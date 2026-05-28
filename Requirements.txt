@@ -1,1 +1,18 @@
-# 
+# Visualization
+
+ER Diagram
+
+# Web Development
+
+HTML5
+CSS3
+Java Script
+
+#
+
+# Notebooks
+
+jupyter
+
+# Database
+PHP
