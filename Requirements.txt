@@ -2,13 +2,21 @@
 
 ER Diagram
 
-# Web Development
+# Web Development & SQL Tools
+
+1. Web Development
 
 HTML5
 CSS3
 Java Script
 
-#
+2. SQL
+
+MySQL
+
+# Languages
+
+SQL
 
 # Notebooks
 
