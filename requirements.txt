@@ -10,3 +10,6 @@ jupyter
 
 # Database
 PHP
+
+# Dashboard
+Streamlit
